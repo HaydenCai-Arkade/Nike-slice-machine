@@ -4,7 +4,7 @@ import SSRLink from "helper/SSRLink";
 import PropTypes from "prop-types";
 
 const Header = ({ header }) => {
-  const nav = header ? header.body : [];
+  const nav = header ? header.data.body : [];
 
   return (
     <div className="menu">

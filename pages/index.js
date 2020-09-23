@@ -7,8 +7,7 @@ import globalProps from "utils/globalProps";
 import PropTypes from "prop-types";
 import { getDocumentByUid, getDocumentsByType } from "helper/prismic";
 
-function Index({ doc, allNews, global }) {
-  const { header, footer } = global;
+function Index({ doc, allNews, header, footer }) {
   const Content = doc.data.body.map((slice, index) => {
     if (slice.slice_type === "hero_section") {
       return (
@@ -111,10 +110,6 @@ Index.propTypes = {
 export default Index;
 
 export async function getStaticProps({ preview = false }) {
-  const {
-    props: { global },
-  } = await globalProps();
-
   const doc = await getDocumentByUid("pages", "landing-page");
   const allNews = await getDocumentsByType("news", {
     pageSize: 3,
@@ -122,7 +117,6 @@ export async function getStaticProps({ preview = false }) {
 
   return {
     props: {
-      global,
       doc,
       allNews,
       preview,
