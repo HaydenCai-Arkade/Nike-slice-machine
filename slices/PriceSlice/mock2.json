@@ -13,18 +13,6 @@
       "button_link": {
         "link_type": "Any"
       }
-    },
-    {
-      "button_label": "$30",
-      "button_link": {
-        "link_type": "Any"
-      }
-    },
-    {
-      "button_label": "$40",
-      "button_link": {
-        "link_type": "Any"
-      }
     }
   ],
   "primary": {
@@ -32,6 +20,13 @@
       {
         "type": "heading1",
         "text": "PRICE-SLICE",
+        "spans": []
+      }
+    ],
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "some description here",
         "spans": []
       }
     ],

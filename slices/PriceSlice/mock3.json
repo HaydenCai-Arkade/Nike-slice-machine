@@ -13,18 +13,6 @@
       "button_link": {
         "link_type": "Any"
       }
-    },
-    {
-      "button_label": "$30",
-      "button_link": {
-        "link_type": "Any"
-      }
-    },
-    {
-      "button_label": "$40",
-      "button_link": {
-        "link_type": "Any"
-      }
     }
   ],
   "primary": {
