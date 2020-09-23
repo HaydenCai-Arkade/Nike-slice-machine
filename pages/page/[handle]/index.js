@@ -27,7 +27,7 @@ export async function getStaticProps({ params, preview = false }) {
     props: { global },
   } = await globalProps();
 
-  const doc = await getDocumentByUid("page", params.handle);
+  const doc = await getDocumentByUid("pages", params.handle);
 
   return {
     props: {

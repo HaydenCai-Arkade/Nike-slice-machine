@@ -1,8 +1,7 @@
 import Prismic from "prismic-javascript";
 
-const prismicApiEndpoint = "https://nextjstestshop.cdn.prismic.io/api/v2";
-const prismicAccessToken =
-  "MC5YME5VOHhJQUFDUUFPVG5p.77-9Oe-_vVQSFQJy77-9Ue-_vTkz77-9G--_vXHvv71q77-977-977-977-9H--_vWxlag5c77-977-9";
+const prismicApiEndpoint = "https://slice-machine-app.cdn.prismic.io/api/v2";
+const prismicAccessToken = "";
 
 export default Prismic.client(prismicApiEndpoint, {
   accessToken: prismicAccessToken,

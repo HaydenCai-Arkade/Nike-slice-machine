@@ -115,7 +115,7 @@ export async function getStaticProps({ preview = false }) {
     props: { global },
   } = await globalProps();
 
-  const doc = await getDocumentByUid("page", "landing-page");
+  const doc = await getDocumentByUid("pages", "landing-page");
   const allNews = await getDocumentsByType("news", {
     pageSize: 3,
   });

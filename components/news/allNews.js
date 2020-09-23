@@ -1,6 +1,6 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
-import { hrefResolver, linkResolver } from "prismic-configuration";
+import { hrefResolver, linkResolver } from "prismic.js";
 
 const AllNews = ({ allNews }) => {
   return (
