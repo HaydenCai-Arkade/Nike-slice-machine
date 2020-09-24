@@ -5,7 +5,7 @@ import { RichText } from 'prismic-reactjs';
 const MySlice = ({ slice }) => {
   return (
     <div className="column-banner">
-      <div className="banner-content">
+      <div className="column-content">
         <div>
           {slice.primary.title ? (
             <RichText render={slice.primary.title} />
@@ -13,17 +13,38 @@ const MySlice = ({ slice }) => {
           {slice.primary.content ? (
             <RichText render={slice.primary.content} />
           ) : null}
-          {slice.primary.image ? (
-            <img src={slice.primary.image.url} className="banner-image" />
-          ) : null}
         </div>
       </div>
+      <div>
+        {slice.primary.image ? (
+          <img src={slice.primary.image.url} className="column-image" />
+        ) : null}
+      </div>
       <style>{`
+      .column-banner{
+        padding:50px;
+        display:flex;
+        width:100%;
+      }
+
+      .column-content{
+        width:50%;
+        background-color:#f8f9fa;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:30px 50px;
+    
+      }
+
+      .column-image{
+        height:400px;
+      }
 
  
 
   
-`}</style>
+      `}</style>
     </div>
   );
 };

@@ -9,3 +9,5 @@ export { default as ImageBanner } from './ImageBanner';
 export { default as ColumnBanner } from './ColumnBanner';
 
 export { default as BlogsSlice } from './BlogsSlice';
+
+export { default as SingleBlog } from './SingleBlog';
