@@ -7,3 +7,5 @@ export { default as ImagesGallerySlice } from './ImagesGallerySlice';
 export { default as ImageBanner } from './ImageBanner';
 
 export { default as ColumnBanner } from './ColumnBanner';
+
+export { default as BlogsSlice } from './BlogsSlice';
