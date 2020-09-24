@@ -4,8 +4,8 @@ import { RichText } from 'prismic-reactjs';
 
 const MySlice = ({ slice }) => {
   return (
-    <div className="intro-banner">
-      <div className="content">
+    <div className="column-banner">
+      <div className="banner-content">
         <div>
           {slice.primary.title ? (
             <RichText render={slice.primary.title} />
