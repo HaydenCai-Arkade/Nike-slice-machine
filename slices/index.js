@@ -4,4 +4,4 @@ export { default as ColumnImageSlice } from './ColumnImageSlice';
 export { default as ImageVideo } from './ImageVideo';
 export { default as ImagesGallerySlice } from './ImagesGallerySlice';
 
-export { default as ContactForm } from './ContactForm';
+export { default as ImageBanner } from './ImageBanner';

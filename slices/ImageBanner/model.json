@@ -1,7 +1,7 @@
 {
   "type": "Slice",
-  "fieldset": "ContactForm Template",
-  "description": "Template model for ContactForm",
+  "fieldset": "ImageBanner Template",
+  "description": "Template model for ImageBanner",
   "icon": "thumb_up",
   "display": "list",
   "non-repeat": {

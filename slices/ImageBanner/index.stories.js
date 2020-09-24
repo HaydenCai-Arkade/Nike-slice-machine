@@ -3,7 +3,7 @@ import MySlice from '.';
 import mock from './mock.json';
 
 export default {
-  title: 'ContactForm',
+  title: 'ImageBanner',
   component: MySlice,
 };
 
