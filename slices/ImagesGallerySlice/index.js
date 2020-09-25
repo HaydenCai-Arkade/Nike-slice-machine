@@ -33,21 +33,23 @@ const MySlice = ({ slice }) => {
       <style>{`
 
       .image-gallery{
+        margin-top:30px;
         display:flex;
         justify-content:center;
       }
       .images-content{
         text-align:center;
         padding: 0 100px;
+        margin-bottom:30px;
       }
       .images{
-        width:1000px;
+        width:1100px;
         margin:0 auto;
       }
 
       .gallery-image{
         height:250px;
-        width:230px;
+        width:250px;
         margin-right:20px;
       }
     `}</style>

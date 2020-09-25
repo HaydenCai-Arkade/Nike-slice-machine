@@ -1,0 +1,114 @@
+{
+  "slice_type": "three_columns",
+  "slice_label": null,
+  "items": [
+    {
+      "image": {
+        "dimensions": {
+          "width": 1394,
+          "height": 993
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/slice-machine-app/1554850d-7d03-49cb-9fd8-256cd476e9ce_Screen+Shot+2020-09-23+at+12.43.44+pm.png?auto=compress,format"
+      },
+      "tag": [
+        {
+          "type": "heading6",
+          "text": "news1",
+          "spans": []
+        }
+      ],
+      "date": "2020-08-31",
+      "title": [
+        {
+          "type": "heading3",
+          "text": "Jordan Brand Holiday Retro Releases",
+          "spans": []
+        }
+      ],
+      "excerpt": [
+        {
+          "type": "paragraph",
+          "text": "September 23, 2020 -The Jordan Brand Holiday 2020 Retro Footwear Collection combines rich history...",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "image": {
+        "dimensions": {
+          "width": 432,
+          "height": 321
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/slice-machine-app/af464dac-15ff-466e-b87d-ede0625820e9_Screen+Shot+2020-09-24+at+2.32.36+pm.png?auto=compress,format"
+      },
+      "tag": [
+        {
+          "type": "heading6",
+          "text": "news2",
+          "spans": []
+        }
+      ],
+      "date": "2020-08-11",
+      "title": [
+        {
+          "type": "heading3",
+          "text": "Ruohan Wang's Flyleather Pack Brings the Whimsy to Circular Design",
+          "spans": []
+        }
+      ],
+      "excerpt": [
+        {
+          "type": "paragraph",
+          "text": "Berlin-based illustrator Ruohan Wang lends her artistic eye toward three Nike silhouettes — the Air Force 1, the Blazer Mid ’77 and the Air Max 90",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "image": {
+        "dimensions": {
+          "width": 302,
+          "height": 251
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/slice-machine-app/2d193284-b588-4a93-8451-f091a348439b_Screen+Shot+2020-09-24+at+2.32.53+pm.png?auto=compress,format"
+      },
+      "tag": [
+        {
+          "type": "heading6",
+          "text": "news3",
+          "spans": []
+        }
+      ],
+      "date": "2020-09-04",
+      "title": [
+        {
+          "type": "heading3",
+          "text": "NIKE, Inc. Reports Fiscal 2021 First Quarter Results",
+          "spans": []
+        }
+      ],
+      "excerpt": [
+        {
+          "type": "paragraph",
+          "text": "NIKE, Inc. (NYSE:NKE) today reported fiscal 2021 financial results for its first quarter ended August 31, 2020.",
+          "spans": []
+        }
+      ]
+    }
+  ],
+  "primary": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Recently News",
+        "spans": []
+      }
+    ]
+  }
+}

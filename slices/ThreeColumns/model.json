@@ -1,7 +1,7 @@
 {
   "type": "Slice",
-  "fieldset": "BlogsSlice Template",
-  "description": "Template model for BlogsSlice",
+  "fieldset": "ThreeColumns Template",
+  "description": "Template model for ThreeColumns",
   "icon": "thumb_up",
   "display": "list",
   "non-repeat": {
