@@ -2,13 +2,11 @@ import React from 'react';
 import MySlice from '.';
 import mock from './mock.json';
 import mock2 from './mock2.json';
-import mock3 from './mock3.json';
 
 export default {
-  title: 'ImageVideo',
+  title: 'FormSlice',
   component: MySlice,
 };
 
 export const __DefaultSlice = () => <MySlice slice={mock} />;
-export const __OptionalSliceOne = () => <MySlice slice={mock2} />;
-export const OptionalSliceTwo = () => <MySlice slice={mock3} />;
+export const __OptionalForm = () => <MySlice slice={mock2} />;

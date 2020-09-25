@@ -11,3 +11,5 @@ export { default as ColumnBanner } from './ColumnBanner';
 export { default as SingleBlog } from './SingleBlog';
 
 export { default as ThreeColumns } from './ThreeColumns';
+
+export { default as FormSlice } from './FormSlice';

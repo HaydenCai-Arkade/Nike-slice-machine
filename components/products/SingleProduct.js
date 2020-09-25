@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import VariantSelector from "./VariantSelector";
-import PropTypes from "prop-types";
-import ImagesViewer from "./ImagesViewer";
+import React, { useState } from 'react';
+import VariantSelector from './VariantSelector';
+import PropTypes from 'prop-types';
+import ImagesViewer from './ImagesViewer';
 
 function SingleProduct({ product, addVariantToCart }) {
   const { options, images, variants, title, description } = product;
@@ -46,7 +46,7 @@ function SingleProduct({ product, addVariantToCart }) {
   });
 
   const [imageViewer, setImageViewer] = useState(
-    images.edges[0].node.originalSrc
+    images.edges[0].node.originalSrc,
   );
 
   const imageHandleChange = (id) => {
@@ -71,7 +71,11 @@ function SingleProduct({ product, addVariantToCart }) {
                 {variant.compareAtPrice ? (
                   <div className="sale">sale</div>
                 ) : null}
-                <img src={imageViewer} alt={`${title} product shot`} />
+                <img
+                  src={imageViewer}
+                  className="image-show"
+                  alt={`${title} product shot`}
+                />
               </div>
             ) : null}
           </div>
@@ -137,9 +141,11 @@ function SingleProduct({ product, addVariantToCart }) {
               display: flex;
               flex-direction: row;
             }
-            img {
-              width: 400px;
+            .product-picture{
               margin-right: 60px;
+            }
+            .image-show {
+              min-width: 600px;
             }
 
             .image-index {
