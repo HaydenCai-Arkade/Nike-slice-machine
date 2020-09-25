@@ -1,7 +1,7 @@
 {
   "type": "Slice",
-  "fieldset": "BlogsSlice Template",
-  "description": "Template model for BlogsSlice",
+  "fieldset": "FormSlice Template",
+  "description": "Template model for FormSlice",
   "icon": "thumb_up",
   "display": "list",
   "non-repeat": {

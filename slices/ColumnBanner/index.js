@@ -22,9 +22,9 @@ const MySlice = ({ slice }) => {
       </div>
       <style>{`
       .column-banner{
-        padding:50px;
+        padding:50px 100px;
         display:flex;
-        width:100%;
+        min-width:1100px;
       }
 
       .column-content{
@@ -36,14 +36,11 @@ const MySlice = ({ slice }) => {
         padding:30px 50px;
     
       }
-
+  
       .column-image{
-        height:400px;
+        width:100%;
       }
 
- 
-
-  
       `}</style>
     </div>
   );

@@ -5,38 +5,59 @@ import { RichText } from 'prismic-reactjs';
 const MySlice = ({ slice }) => {
   return (
     <div className="image-banner">
-      <div>
-        {slice.primary.image ? (
-          <img src={slice.primary.image.url} className="banner-image" />
-        ) : null}
+      <div className="banner-image">
+        {slice.primary.image ? <img src={slice.primary.image.url} /> : null}
       </div>
       <div className="right-banner">
-        <h3>TAG HERE</h3>
-        {slice.primary.title ? <RichText render={slice.primary.title} /> : null}
-        {slice.primary.content ? (
-          <RichText render={slice.primary.content} />
-        ) : null}
+        <div>
+          {slice.primary.title ? (
+            <RichText render={slice.primary.title} />
+          ) : null}
+          {slice.primary.content ? (
+            <RichText render={slice.primary.content} />
+          ) : null}
+          {slice.items ? <button>{slice.items[0].button_label}</button> : null}
+        </div>
       </div>
       <style>{`
 
       .image-banner{
-        padding:50px;
+        padding:50px 100px;
         display:flex;
+        min-width:1100px;
 
       }
       .banner-image{
-        width:1000px;
+        width:80%;
         height:500px;
-
       }
+
+      .banner-image img{
+        width:100%;
+        height:500px;
+      }
+
       .right-banner{
-        margin-left:30px;
-        padding:30px 50px;
+        background-color:#f8f9fa;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding: 0 50px;
+        box-sizing:border-box;
       }
 
- 
-
-  
+      button{
+        display:block;
+        background-color:black;
+        outline:none;
+        width:150px;
+        height:50px;
+        font-size:20px;
+        border:none;
+        cursor:pointer;
+        color:white;
+        margin-top:30px;
+      }
       `}</style>
     </div>
   );

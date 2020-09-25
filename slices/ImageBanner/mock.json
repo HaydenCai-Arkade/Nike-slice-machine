@@ -1,7 +1,14 @@
 {
   "slice_type": "image_banner",
   "slice_label": null,
-  "items": [],
+  "items": [
+    {
+      "button_label": "Button one",
+      "button_link": {
+        "link_type": "Any"
+      }
+    }
+  ],
   "primary": {
     "title": [
       {

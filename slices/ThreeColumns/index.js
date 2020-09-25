@@ -34,7 +34,7 @@ const MySlice = ({ slice }) => {
       <style>{`
 
       .blogs-banner{
-        width:94vw;
+        max-width:100vw;
         margin:0 auto;
         padding:100px;
 
