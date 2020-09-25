@@ -10,9 +10,11 @@ const MySlice = ({ slice }) => (
     <div className="price-content">
       <div className="title">
         {slice.primary.title ? <RichText render={slice.primary.title} /> : null}
-        {slice.primary.description ? (
-          <RichText render={slice.primary.description} />
-        ) : null}
+        <div className="description">
+          {slice.primary.description ? (
+            <RichText render={slice.primary.description} />
+          ) : null}
+        </div>
       </div>
 
       <div className="btn-group">
@@ -38,6 +40,10 @@ const MySlice = ({ slice }) => (
       color:black;
       overflow-x: hidden;
       boxing-sizing:border-box;
+    }
+
+    .description{
+      width:500px;
     }
 
     .image{
@@ -69,7 +75,7 @@ const MySlice = ({ slice }) => (
       display:block;
       background-color:white;
       outline:none;
-      width:180px;
+      min-width:140px;
       height:50px;
       font-size:15px;
       border:none;
